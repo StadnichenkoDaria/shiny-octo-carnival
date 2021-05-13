@@ -7,7 +7,7 @@ from src.Triangle import Triangle
 
 
 @pytest.fixture()
-def create_triangle():
+def triangle():
     return Triangle("triangle", 3)
 
 
