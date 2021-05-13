@@ -12,6 +12,3 @@ class Triangle(Figure):
     def calculate_perimeter(self, side_a, side_b, side_c):
         self.perimeter = side_a + side_b + side_c
         return self.perimeter
-
-
-

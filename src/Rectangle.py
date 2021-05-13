@@ -12,4 +12,3 @@ class Rectangle(Figure):
     def calculate_perimeter(self, side_a, side_b):
         self.perimeter = (side_a + side_b) * 2
         return self.perimeter
-

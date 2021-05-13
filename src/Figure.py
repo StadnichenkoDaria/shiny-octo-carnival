@@ -20,7 +20,4 @@ class Figure(ABC):
         if isinstance(figure, Figure):
             amount_area = figure.area + self.area
             return amount_area
-        print("It's not figure")
-
-
-
+        return "It's not figure"

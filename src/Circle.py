@@ -14,5 +14,3 @@ class Circle(Figure):
     def calculate_perimeter(self, circle_radius):
         self.perimeter = round(2 * math.pi * circle_radius)
         return self.perimeter
-
-

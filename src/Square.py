@@ -12,5 +12,3 @@ class Square(Figure):
     def calculate_perimeter(self, side_a):
         self.perimeter = side_a * 4
         return self.perimeter
-
-

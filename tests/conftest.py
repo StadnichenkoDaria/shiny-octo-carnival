@@ -12,15 +12,15 @@ def create_triangle():
 
 
 @pytest.fixture()
-def create_circle():
+def circle():
     return Circle("circle", 0)
 
 
 @pytest.fixture()
-def create_rectangle():
+def rectangle():
     return Rectangle("rectangle", 4)
 
 
 @pytest.fixture()
-def create_square():
+def square():
     return Square("square", 0)
